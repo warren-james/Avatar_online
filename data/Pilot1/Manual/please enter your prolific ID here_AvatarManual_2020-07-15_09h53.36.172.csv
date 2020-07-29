@@ -1,0 +1,2 @@
+Browser,true_x_res,true_y_res,x_adjustment,y_adjustment,Params_TravelTime,Params_yOffset,Params_Reach,Params_ScreenWidth,Params_ScreenHeight,Params_Hz,Params_HzScale,Params_conf_linewidth,PhoneDetected,participant,Age,Gender,date,expName,psychopyVersion,OS,frameRate
+,980,1892,1,1,120,100,45,1200,600,60,1,300,True,please enter your prolific ID here,22,female,2020-07-15_09h53.36.172,AvatarManual,3.2.2,iPhone,60

@@ -1,0 +1,2 @@
+Browser,true_x_res,true_y_res,x_adjustment,y_adjustment,Params_TravelTime,Params_yOffset,Params_Reach,Params_ScreenWidth,Params_ScreenHeight,Params_Hz,Params_HzScale,Params_conf_linewidth,ScreenTooSmall,participant,Age,Gender,date,expName,psychopyVersion,OS,frameRate,PROLIFIC_PID,STUDY_ID,SESSION_ID
+Chrome,1440,583,1,1,120,100,45,1200,600,60,1,300,True,please enter your prolific ID here,,,2020-07-27_11h05.20.165,AvatarAutomaticProl,3.2.2,Linux armv7l,60,5f1e933193414a0009e621f8,5f1b026ff9f4e82811599350,5f1eeba4eb7973056ae50e81

@@ -1,0 +1,2 @@
+Browser,true_x_res,true_y_res,x_adjustment,y_adjustment,Params_TravelTime,Params_yOffset,Params_Reach,Params_ScreenWidth,Params_ScreenHeight,Params_Hz,Params_HzScale,Params_conf_linewidth,ExperimentStarted,ScreenTooSmall,participant,Age,Gender,date,expName,psychopyVersion,OS,frameRate
+Firefox,1093,512,1,1,120,100,45,1200,600,60,1,300,7/18/20,True,Erica718,58,2,2020-07-18_17h53.03.693,AvatarManual,3.2.2,Win32,60

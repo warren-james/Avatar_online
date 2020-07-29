@@ -1,0 +1,2 @@
+Browser,true_x_res,true_y_res,x_adjustment,y_adjustment,Params_TravelTime,Params_yOffset,Params_Reach,Params_ScreenWidth,Params_ScreenHeight,Params_Hz,Params_HzScale,Params_conf_linewidth,ExperimentStarted,params_consent,ConsentLoop.thisRepN,ConsentLoop.thisTrialN,ConsentLoop.thisN,ConsentLoop.thisIndex,ConsentLoop.ran,ConsentLoop.order,participant,Age,Gender,date,expName,psychopyVersion,OS,frameRate
+Chrome,1280,881,1,1,120,100,45,1200,600,60,1,300,7/20/20,Disagreed,3,0,3,0,1,2,please enter your prolific ID here,,,2020-07-20_12h54.50.295,AvatarManual,3.2.2,Win32,60

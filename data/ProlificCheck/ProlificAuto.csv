@@ -1,0 +1,35 @@
+session_id,participant_id,status,started_datetime,completed_date_time,time_taken,age,num_approvals,num_rejections,prolific_score,reviewed_at_datetime,entered_code,Country of Birth,Current Country of Residence,Employment Status,First Language,Nationality,Sex,Student Status
+5f1eb0c3a4270b000ac38ddb,5c08450f5b32d500012e371b,RETURNED,47:31.4,,16638.55375,25,40,1,100,,,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED
+5f1eb0c5c9fd2400099da54f,5f1db362b7b8a26ee4e9ad30,APPROVED,47:42.8,03:06.5,923.708,20,1,0,100,33:11.3,3C17EACE,Estonia,Estonia,Full-Time,Estonian,Estonia,Male,Yes
+5f1eb0c90b06ce000907e737,5e307812c0b28907a0a74027,APPROVED,47:39.8,01:56.6,856.856,35,51,0,100,32:18.1,3C17EACE,Portugal,Portugal,Full-Time,Portuguese,Portugal,Female,No
+5f1eb0e7738e630008e4fc78,5b3344d76d601d0001d623ee,RETURNED,59:00.6,,16013.8119,27,180,1,100,,,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED
+5f1eb0e92c3f7200088cdf3e,5f1d879edef5136a796ed7a2,APPROVED,48:19.2,37:39.7,6560.536,22,1,0,100,37:40.8,Manual Completion,United Kingdom,United Kingdom,Other,English,United Kingdom,Female,Yes
+5f1eb0ea1d97590009697612,5f1eaa90cf077f0008daa7bf,APPROVED,48:15.3,12:19.2,1443.823,19,1,0,100,33:21.4,NOCODE,Poland,Poland,Unemployed (and job seeking),Polish,Poland,Male,Yes
+5f1eb0eec5daea0008b2415a,5b5896dc4f5ac5000192f36a,APPROVED,48:20.4,06:28.3,1087.952,49,270,1,100,35:01.9,NOCODE,United Kingdom,United Kingdom,Full-Time,English,United Kingdom,Female,No
+5f1eb0f27f04ad0008cbc65f,5ecfea23da3c3208a1ed99c8,APPROVED,48:18.8,02:47.5,868.749,26,20,2,95,57:27.1,3C17EACE,Poland,Poland,Full-Time,Polish,Poland,Male,Yes
+5f1eb0f3a44d5d000b4981ff,5edbe5280d226089aa3b9c7e,APPROVED,48:19.3,56:37.7,498.483,18,24,1,99,32:50.3,3C17EACE,Portugal,Portugal,Unemployed (and job seeking),Portuguese,Portugal,Male,Yes
+5f1eb0f654371500083ce7cb,5e93624940aaf46a4f0fb43b,APPROVED,48:25.9,01:09.9,764.049,22,12,0,100,32:29.6,3C17EACE,South Africa,South Africa,Unemployed (and job seeking),English,South Africa,Female,No
+5f1eb0f60e2a0d0009d05290,5d489bb062ed9000157adb20,APPROVED,48:25.4,01:46.3,800.863,28,15,0,100,32:05.3,3C17EACE,Croatia,United Kingdom,Full-Time,Croatian,Croatia,Female,Yes
+5f1eb0f7b6266600099dd9ee,5d089072c65537001a08d156,APPROVED,51:26.4,58:33.1,426.648,31,72,0,100,33:35.9,3C17EACE,United Kingdom,United Kingdom,"Not in paid work (e.g. homemaker', 'retired or disabled)",English,United Kingdom,Female,Yes
+5f1eeb8e0aca160614e74ca5,5efcc4c2df2a840acee97095,RETURNED,01:16.7,,1525.236933,19,11,0,100,,,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED
+5f1eeba4eb7973056ae50e81,5f1e933193414a0009e621f8,RETURNED,58:55.1,,1666.760024,31,0,0,100,,,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED,CONSENT REVOKED
+5f1eebaac19b6d03e6a976bb,5ca0e0ca3a7de90015f89e8a,ACTIVE,01:28.9,,1512.985076,34,266,1,100,,,United Kingdom,United Kingdom,Part-Time,English,United Kingdom,Female,No
+5f1eebb043cfbc032404b0e0,5e9ab5df2893af141343bce7,ACTIVE,02:09.0,,1472.941506,29,45,0,100,,,Hungary,Hungary,Full-Time,Hungarian,Hungary,Male,No
+5f1eebb49096ab054c0327b4,5f1e9c0c2c833f42a6afc2a4,AWAITING REVIEW,59:00.0,18:27.0,1166.911,18,0,0,100,,3C17EACE,Poland,Poland,Other,Polish,Poland,Male,Yes
+5f1eebb972c1fd04f3dccb9c,5e8b2a3044d8747e29550203,AWAITING REVIEW,59:11.7,12:26.0,794.396,20,19,0,100,,3C17EACE,Australia,Australia,Part-Time,English,Australia,Male,Yes
+5f1eebbb68e3c50505a2f0da,5ba8d21cd08ab20001c82ecf,AWAITING REVIEW,59:10.4,12:11.4,781.037,29,76,0,100,,3C17EACE,Russian Federation,Israel,Full-Time,Hebrew,Israel,Male,Yes
+5f1eebbd4ebbc005b2d130a3,5c93106f765dad0015f840ff,AWAITING REVIEW,59:09.9,15:57.3,1007.325,20,44,1,99,,3C17EACE,Estonia,Estonia,Other,Estonian,Estonia,Male,No
+5f1eebc08cb6d804d0fdb73c,5e8346cef38186069077abef,AWAITING REVIEW,59:12.7,13:51.8,879.138,29,44,0,100,,3C17EACE,Italy,Italy,Unemployed (and job seeking),Italian,Italy,Male,No
+5f1eebc11a2f150422db6406,5ee7c514b0bcec08a00d6a93,AWAITING REVIEW,59:13.3,19:15.2,1201.936,19,5,0,100,,3C17EACE,Poland,Poland,Unemployed (and job seeking),Polish,Poland,Male,Yes
+5f1eebc2c4175b052410d335,5ea954d9074a4a02c77dd184,ACTIVE,59:14.7,,1647.364226,23,16,0,100,,,Portugal,Portugal,Unemployed (and job seeking),Portuguese,Portugal,Male,Yes
+5f1eebc319e99104bd07baab,5ebd1b6dec7a5d01186cb811,AWAITING REVIEW,59:15.8,17:53.6,1117.727,19,21,0,100,,NOCODE,Poland,Poland,Unemployed (and job seeking),Polish,Poland,Female,Yes
+5f1eebc56fcf63058059d40f,5e820a415b6ebc01e6cd81a8,AWAITING REVIEW,00:50.3,18:31.1,1060.776,29,18,0,100,,3C17EACE,Italy,Italy,Part-Time,Italian,Italy,Female,Yes
+5f1eebc516ec4204c93f741f,5eab3ab6f32e3b10405dafeb,AWAITING REVIEW,59:17.3,16:04.8,1007.469,27,17,0,100,,NOCODE,Greece,Greece,DATA EXPIRED,DATA EXPIRED,Greece,Female,DATA EXPIRED
+5f1eebc5a6dae404ccd082f4,5b2408e8a7cee100011d61a7,AWAITING REVIEW,59:21.3,17:12.3,1071.066,51,34,0,100,,3C17EACE,Ireland,Ireland,Due to start a new job within the next month,English,Ireland,Male,No
+5f1eebd19747da04a920d10b,5ec79d5d4f89b82002134fe1,ACTIVE,59:29.0,,1633.157856,21,21,0,100,,,Portugal,Portugal,Part-Time,Portuguese,Portugal,Male,Yes
+5f1eebd4f54a91054450861f,5eac7cc25fe9ad2d823fab6a,ACTIVE,59:34.4,,1649.323034,22,25,1,99,,,Italy,Italy,Unemployed (and job seeking),Italian,Italy,Male,Yes
+5f1eebd5391c9b059c4d6bef,5d1f5c20aaa27b001954de31,AWAITING REVIEW,59:38.4,13:03.2,804.767,22,103,1,100,,3C17EACE,Greece,Greece,Unemployed (and job seeking),Greek,Greece,Male,Yes
+5f1eebd7074ce305eed6edf4,5bf9157e8e9c9d000109f674,AWAITING REVIEW,59:41.5,20:22.4,1240.88,24,44,0,100,,NOCODE,Latvia,Latvia,Full-Time,Latvian,Latvia,Male,No
+5f1eebd83aeccb04fc616a52,5b830542b0d72600018dc280,AWAITING REVIEW,59:36.3,20:38.3,1261.998,29,162,0,100,,3C17EACE,Hungary,Poland,Full-Time,Polish,Poland,Female,No
+5f1eeeb3ec367a0603a60d84,5dc9ef9a5d81cd71153f8f70,ACTIVE,18:46.7,,497.042289,20,99,0,100,,,Romania,Spain,Other,Spanish,Romania,Female,Yes
+5f1ef11be5931205b09bf591,5f1b456e67c7af0f63889518,ACTIVE,22:05.2,,298.595989,24,1,0,100,,,Poland,Poland,Unemployed (and job seeking),Polish,Poland,Male,Yes

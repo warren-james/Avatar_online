@@ -1,0 +1,2 @@
+Browser,true_x_res,true_y_res,x_adjustment,y_adjustment,Params_TravelTime,Params_yOffset,Params_Reach,Params_ScreenWidth,Params_ScreenHeight,Params_Hz,Params_HzScale,Params_conf_linewidth,params_consent,participant,Age,Gender,date,expName,psychopyVersion,OS,frameRate
+Chrome,1920,947,1,1,120,100,45,1200,600,60,1,300,Disagreed,TestBrowser4,26,Male,2020-07-13_15h41.17.330,AvatarManual,3.2.2,Win32,60

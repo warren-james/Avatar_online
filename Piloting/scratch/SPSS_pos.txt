@@ -1,0 +1,24 @@
+"participant" "Close" "Far"
+"angel0717" 0.182 0.535
+"Caroline Lenoury" 0.164 0.698
+"chenximing" 1.006 0.99
+"fangyanjun715" 0.28 0.663
+"G1-7141" 1.013 0.948
+"G1-7143" 0.1 0.149
+"G1-7144" 0.273 0.671
+"g1-7146" 0.269 0.311
+"G1 -7145" 0.045 0.078
+"G2-7141" 0.635 0.769
+"Jialin " 0.248 0.838
+"JIAZIYUAN" 0.076 0.054
+"leechengyun718" 0.969 0.961
+"liuchen-714" 0.912 0.99
+"liyihan-714" 0.525 0.817
+"mike718" 0.125 0.954
+"Rui Shen" 0.522 0.472
+"shunjiao ma" 0.133 0.554
+"sunzijie" 0.157 0.847
+"Tania0612" 0.101 0.218
+"Wanchen Yao" 0.344 0.991
+"Wang Zhanguo" 0.857 0.954
+"zhouyuxi-714" 0.255 0.573

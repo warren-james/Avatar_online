@@ -1,0 +1,4 @@
+Browser,true_x_res,true_y_res,x_adjustment,y_adjustment,Params_TravelTime,Params_yOffset,Params_Reach,Params_ScreenWidth,Params_ScreenHeight,Params_Hz,Params_HzScale,Params_conf_linewidth,ExperimentStarted,PhoneDetected,participant,Age,Gender,date,expName,psychopyVersion,OS,frameRate
+Safari,980,1832,1,1,120,100,45,1200,600,60,1,300,7/20/20,True,ChihyunCheng0811,36,2,2020-07-20_07h21.56.609,AvatarManual,3.2.2,iPhone,60
+.2.2,iPhone,60,
+,,,,,,,,,,,,,,,ChihyunCheng0811,36,2,2020-07-20_07h21.56.609,AvatarManual,3.2.2,iPhone,60,True

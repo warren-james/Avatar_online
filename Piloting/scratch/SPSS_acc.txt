@@ -1,0 +1,24 @@
+"participant" "Condition" "Close" "Far"
+"angel0717" "Manual" 0.807 0.423
+"Caroline Lenoury" "Manual" 0.546 0.363
+"chenximing" "Manual" 0.692 0.5
+"fangyanjun715" "Manual" 0.782 0.412
+"G1-7141" "Manual" 0.497 0.425
+"G1-7143" "Manual" 0.694 0.091
+"G1-7144" "Manual" 0.687 0.397
+"g1-7146" "Manual" 0.744 0.165
+"G1 -7145" "Manual" 0.746 0.055
+"G2-7141" "Manual" 0.824 0.471
+"Jialin " "Manual" 0.385 0.413
+"JIAZIYUAN" "Manual" 0.544 0.009
+"leechengyun718" "Manual" 0.651 0.497
+"liuchen-714" "Manual" 0.474 0.5
+"liyihan-714" "Manual" 0.746 0.421
+"mike718" "Manual" 0.643 0.462
+"Rui Shen" "Manual" 0.733 0.307
+"shunjiao ma" "Manual" 0.7 0.317
+"sunzijie" "Manual" 0.95 0.468
+"Tania0612" "Manual" 0.279 0.025
+"Wanchen Yao" "Manual" 0.587 0.489
+"Wang Zhanguo" "Manual" 0.711 0.475
+"zhouyuxi-714" "Manual" 0.856 0.442
