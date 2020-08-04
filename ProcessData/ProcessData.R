@@ -89,6 +89,7 @@ for(p in unique(df_demo$participant)){
 rm(m, ss, temp, temp_params, participant, Condition, dists, n, p, pb)
 
 print("complete")
+beep()
 
 # bind this data to the trials data so we have chance performance
 df_acc1 <- df_acc %>% 
@@ -110,8 +111,8 @@ rm(df_acc1, df_acc2)
 
 #### Replace #### 
 # check the manual condition for people who have poor accuracy 
-limit <- .4
-Manual_keep <- df_accparams %>% 
+limit <- .85
+Manual_participants <- df_accparams %>% 
   filter(Condition == "Manual") %>%
   mutate(dist_100 = 100,
          dist_200 = 200,
@@ -122,16 +123,35 @@ Manual_keep <- df_accparams %>%
          value = "distance") %>% 
   select(-remove) %>% 
   mutate(accuracy = boot::inv.logit(A + (distance * B)),
-         exclude = ifelse(boot::inv.logit(A + (200 * B)) < .4, "exclude", "keep"))
+         exclude = ifelse(boot::inv.logit(A + (100 * B)) < limit, "exclude", "keep"))
 
-# Manual_keep %>% 
-#   ggplot(aes(distance, accuracy, 
-#              colour = exclude)) + 
-#   geom_point() + 
-#   geom_smooth(method = "glm",
-#               method.args = list(family = "binomial"),
-#               se = F) + 
-#   facet_wrap(~participant)
+Manual_keep <- Manual_participants %>% 
+  filter(exclude == "keep")
+Manual_keep = unique(Manual_keep$participant)
+Manual_exclude <- Manual_participants %>% 
+  filter(exclude == "exclude")
+Manual_exclude = unique(Manual_exclude$participant)
+
+# add in column to see who's being excluded
+df_avatar <- df_avatar %>% 
+  mutate(exclude = ifelse(participant %in% Manual_exclude, TRUE, FALSE))
+
+plt_Manual_acc <- Manual_participants %>%
+  ggplot(aes(distance, accuracy,
+             colour = exclude)) +
+  geom_point() +
+  geom_smooth(method = "glm",
+              method.args = list(family = "binomial"),
+              se = F) +
+  facet_wrap(~participant)
+
+# compare closest and furthest acc 
+plt_acc_check <- df_acc %>%
+  filter(dist %in% c(100,400)) %>%
+  filter(!participant %in% Manual_exclude) %>% 
+  ggplot(aes(acc, fill = Condition)) + 
+  geom_density(alpha = .3) +
+  facet_wrap(~dist, scales = "free")
 
 # tidy 
 rm(limit)

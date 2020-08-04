@@ -1,0 +1,2 @@
+Browser,true_x_res,true_y_res,x_adjustment,y_adjustment,Params_TravelTime,Params_yOffset,Params_Reach,Params_ScreenWidth,Params_ScreenHeight,Params_Hz,Params_HzScale,Params_conf_linewidth,ExperimentStarted,PhoneDetected,participant,Age,Gender,date,expName,psychopyVersion,OS,frameRate,PROLIFIC_PID,STUDY_ID,SESSION_ID
+Chrome,980,1065,1,1,120,100,45,1200,600,60,1,300,8/3/20,True,5f12fe38f644de14ba0666fe,33,Male,2020-08-03_10h51.44.391,ProlificManual,3.2.2,Linux armv8l,60,5f12fe38f644de14ba0666fe,5f1f20d4c389060d55cb9bc4,5f27ddef3249c302ead034f3

@@ -5,6 +5,7 @@
 library(tidyverse)
 library(gridExtra)
 library(progress)
+library(beepr)
 
 #### Functions ####
 # function for sorting columns we want 
@@ -158,6 +159,7 @@ for(DIR in results_files){
 # tidy 
 rm(f, results_files, d, d_demo, d_trial, d_param, d_demographics, time, date, Browser, OS, crashed, participant, split, exp, phone, DIR, extracted, excess, pb, size, screenSmall)
 print("reading complete")
+beep()
 
 
 

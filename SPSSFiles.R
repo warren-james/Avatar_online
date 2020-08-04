@@ -7,8 +7,15 @@ library(tidyverse)
 #### load data ####
 source("ProcessData/ProcessData.R")
 
+#### Functions ####
+source("Functions/0_getLegend.R")
+
 #### Make SPSS friendly version ####
 #### > Make wide data ####
+# filter out "bad" participants 
+df_avatar <- df_avatar %>%
+  filter(exclude == FALSE)
+
 df_SPSS_pos <- df_avatar %>%
   group_by(participant, dist_type, Condition) %>% 
   summarise(pos = mean(abs_norm_place)) %>% 
@@ -26,22 +33,23 @@ df_SPSS_acc <- df_avatar %>%
 # we'll take the 20 that fulfill a looser criteria for now from the Manual response
 # and 20 at random from the Automatic 
 # set seed so we should always get the same participants
-set.seed(1234)
-# get participants to keep 
-manual_participants <- unique(Manual_keep$participant[Manual_keep$exclude == "keep"])
-auto_participants <- sample(unique(df_trials$participant[df_trials$Condition == "Automatic"]), 20, replace = F)
-participants <- c(as.character(manual_participants), as.character(auto_participants))
-
-df_SPSS_acc <- df_SPSS_acc %>% 
-  filter(participant %in% participants)
-df_SPSS_pos <- df_SPSS_pos %>%  
-  filter(participant %in% participants)
+# set.seed(1234)
+# # get participants to keep 
+# manual_participants <- unique(Manual_keep$participant[Manual_keep$exclude == "keep"])
+# auto_participants <- sample(unique(df_trials$participant[df_trials$Condition == "Automatic"]), 20, replace = F)
+# participants <- c(as.character(manual_participants), as.character(auto_participants))
+# 
+# df_SPSS_acc <- df_SPSS_acc %>% 
+#   filter(participant %in% participants)
+# df_SPSS_pos <- df_SPSS_pos %>%  
+#   filter(participant %in% participants)
 
 #### > write these to .txt files ####
 write.table(df_SPSS_acc, file = "scratch/SPSS_acc.txt", row.names = F)
 write.table(df_SPSS_pos, file = "scratch/SPSS_pos.txt", row.names = F)
 
 #### Demographics ####
+participants <- unique(df_SPSS_acc$participant)
 SPSS_demographics <- df_demographics %>% 
   filter(participant %in% participants) %>%
   mutate(Gender = tolower(Gender)) 
@@ -61,7 +69,8 @@ plt_chance <- df_SPSS_acc %>%
   theme_bw() + 
   see::scale_color_flat() + 
   see::scale_fill_flat() + 
-  facet_wrap(~Condition)
+  facet_wrap(~Condition) +
+  theme(legend.position = "bottom")
 
 plt_pos <- df_SPSS_pos %>% 
   gather(Close:Far, 
@@ -75,7 +84,8 @@ plt_pos <- df_SPSS_pos %>%
   theme_bw()+ 
   see::scale_color_flat() + 
   see::scale_fill_flat() + 
-  facet_wrap(~Condition)
+  facet_wrap(~Condition) +
+  theme(legend.position = "none")
 
 grid.arrange(plt_pos, plt_chance, ncol = 2)
 
@@ -90,13 +100,14 @@ line_acc <- df_SPSS_acc %>%
   ggplot(aes(Distance, mu,
              colour = Condition)) + 
   geom_point() +
-  geom_errorbar(aes(ymin = mu-sdev, ymax = mu +sdev)) +
+  # geom_errorbar(aes(ymin = mu-sdev, ymax = mu +sdev)) +
   geom_line(aes(group = Condition)) +
   scale_y_continuous("Mean Chance",
                      labels = scales::percent_format(accuracy = 1)) + 
   # scale_colour_manual(values = c("#e74c3c")) +
   see::scale_color_flat() +
-  theme_bw()
+  theme_bw() +
+  theme(legend.position = "bottom")
   
 line_pos <- df_SPSS_pos %>%
   gather(Close:Far,
@@ -108,14 +119,19 @@ line_pos <- df_SPSS_pos %>%
   ggplot(aes(Distance, mu,
              colour = Condition)) + 
   geom_point() +
-  geom_errorbar(aes(ymin = mu-sdev, ymax = mu +sdev)) +
+  # geom_errorbar(aes(ymin = mu-sdev, ymax = mu +sdev)) +
   geom_line(aes(group = Condition)) +
   scale_y_continuous("Mean Position") + 
   # scale_colour_manual(values = c("#e74c3c")) 
   see::scale_colour_flat() +
-  theme_bw()
+  theme_bw() +
+  theme(legend.position = "none")
 
-gridExtra::grid.arrange(line_acc, line_pos, ncol = 2)
+# setup plot together
+line_legend <- g_legend(line_acc)
+x11()
+grid.arrange(arrangeGrob(line_acc + theme(legend.position = "none"), line_pos, ncol = 2),
+             line_legend, heights = c(10,1))
 
 
 

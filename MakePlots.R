@@ -7,6 +7,20 @@ library(tidyverse)
 #### Source ####
 source("ProcessData/ProcessData.R")
 
+df_avatar%>% 
+  filter(exclude == FALSE) %>%
+  group_by(participant, Condition) %>% 
+  summarise(chance = mean(chance)) %>% 
+  ungroup() %>% 
+  group_by(Condition) %>% 
+  summarise(n = n())
+
+df_avatar <- df_avatar %>%
+  filter(exclude == FALSE)
+
+df_demo <- df_demo %>% 
+  filter(!participant %in% Manual_exclude)
+
 #### Plots ####
 #### > Demo plots ####
 # we want to plot accuracy over distance 
@@ -22,7 +36,8 @@ plt_acc <- df_demo %>%
               se = F) + 
   geom_point(aes(Demo_delta, acc)) +
   # geom_point(aes(abs(Demo_xposTarget), acc)) + 
-  facet_wrap(~participant) + 
+  facet_wrap(~participant, ncol = 6) + 
+  see::scale_color_flat() +
   theme_bw() + 
   theme(strip.text.x = element_blank())
 # x11()
@@ -49,6 +64,7 @@ plt_end <- df_demo %>%
                             colour = Condition),
                         alpha = .01) + 
   facet_grid(participant~abs_target) + 
+  see::scale_color_flat() +
   theme_bw() + 
   theme(strip.text.x = element_blank())
 # x11()

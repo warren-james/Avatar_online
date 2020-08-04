@@ -1,11 +1,10 @@
 # check against prolific files 
-# get R file
-source("1_read_data.R")
+# get R file 
+source("ProcessData/ReadData.R")
 
 # get list of participants
 participants <- unique(df_trials$participant)
 results <- "data/ProlificCheck/"
-
 
 # read in prolific data 
 df_prol_comp <- tibble()
@@ -45,7 +44,7 @@ df_prol_comp <- df_prol_comp %>%
     checked = ifelse(full_set == "True", "All good", 
                      ifelse(phone == "True", "Phone",
                             ifelse(screenSmall == "True", "Screen too small",
-                                   ifelse(file_present == "False", "No File", "Check again"))))
+                                   ifelse(file_present == "False", "No File", "Crashed"))))
     ) %>% 
   arrange(Condition, participant_id)
 

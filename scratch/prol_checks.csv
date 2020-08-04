@@ -1,78 +1,98 @@
-participant_id,status,Condition,phone,screenSmall,file_present,full_set,checked
-5b2408e8a7cee100011d61a7,AWAITING REVIEW,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5b3344d76d601d0001d623ee,RETURNED,ProlificAuto,FALSE,FALSE,FALSE,FALSE,No File
-5b5896dc4f5ac5000192f36a,APPROVED,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5b830542b0d72600018dc280,AWAITING REVIEW,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5ba8d21cd08ab20001c82ecf,AWAITING REVIEW,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5bf9157e8e9c9d000109f674,AWAITING REVIEW,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5c08450f5b32d500012e371b,RETURNED,ProlificAuto,FALSE,FALSE,TRUE,FALSE,Crashed in Demo
-5c93106f765dad0015f840ff,AWAITING REVIEW,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5ca0e0ca3a7de90015f89e8a,ACTIVE,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5d089072c65537001a08d156,APPROVED,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5d1f5c20aaa27b001954de31,AWAITING REVIEW,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5d489bb062ed9000157adb20,APPROVED,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5dc9ef9a5d81cd71153f8f70,ACTIVE,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5e307812c0b28907a0a74027,APPROVED,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5e820a415b6ebc01e6cd81a8,AWAITING REVIEW,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5e8346cef38186069077abef,AWAITING REVIEW,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5e8b2a3044d8747e29550203,AWAITING REVIEW,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5e93624940aaf46a4f0fb43b,APPROVED,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5e9ab5df2893af141343bce7,ACTIVE,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5ea954d9074a4a02c77dd184,ACTIVE,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5eab3ab6f32e3b10405dafeb,AWAITING REVIEW,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5eac7cc25fe9ad2d823fab6a,ACTIVE,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5ebd1b6dec7a5d01186cb811,AWAITING REVIEW,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5ec79d5d4f89b82002134fe1,ACTIVE,ProlificAuto,FALSE,FALSE,FALSE,FALSE,No File
-5ecfea23da3c3208a1ed99c8,APPROVED,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5edbe5280d226089aa3b9c7e,APPROVED,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5ee7c514b0bcec08a00d6a93,AWAITING REVIEW,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5efcc4c2df2a840acee97095,RETURNED,ProlificAuto,FALSE,FALSE,FALSE,FALSE,No File
-5f1b456e67c7af0f63889518,ACTIVE,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5f1d879edef5136a796ed7a2,APPROVED,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5f1db362b7b8a26ee4e9ad30,APPROVED,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5f1e933193414a0009e621f8,RETURNED,ProlificAuto,FALSE,FALSE,FALSE,FALSE,No File
-5f1e9c0c2c833f42a6afc2a4,AWAITING REVIEW,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-5f1eaa90cf077f0008daa7bf,APPROVED,ProlificAuto,FALSE,FALSE,TRUE,TRUE,All good
-59f096e47f3d71000171e46b,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5ab14610811b2000016fa5e8,RETURNED,ProlificManual,FALSE,FALSE,FALSE,FALSE,No File
-5b5f15f2fc072a00017da73d,APPROVED,ProlificManual,FALSE,FALSE,TRUE,FALSE,Crashed in Demo
-5bb2db13f05e410001fa0c8a,RETURNED,ProlificManual,FALSE,FALSE,TRUE,FALSE,Crashed in Demo
-5be2172e8a2c800001624f31,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5bfc4abf02c7560001ae506a,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5c0d2a1e934de30001764967,RETURNED,ProlificManual,FALSE,FALSE,FALSE,FALSE,No File
-5c3ed18bde04ad0001d90f0c,REJECTED,ProlificManual,TRUE,FALSE,TRUE,FALSE,Phone
-5c45f3bb16760d000127fee1,REJECTED,ProlificManual,TRUE,FALSE,TRUE,FALSE,Phone
-5c5cad3e4ee81200018eafe2,APPROVED,ProlificManual,FALSE,FALSE,FALSE,FALSE,No File
-5c6440b6ceb4ca00014458a4,APPROVED,ProlificManual,FALSE,TRUE,TRUE,FALSE,Screen too small
-5ca61b5b38d61000014d60f8,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5cd05f699663d500187a3d5e,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5d160de2a69e290017ef507c,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5d2cb707d091310019c54662,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5d55d55a31022a0001428f3a,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5dcc4dc4dcc83f8de5d8ad68,APPROVED,ProlificManual,FALSE,FALSE,FALSE,FALSE,No File
-5dde2bbdcaee3ed8d5b64b0f,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5de637df1abb5059e776aab2,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5df9ff4566247b000d5d9a72,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5e330b32b5cfc82d828e9830,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5e4a6ca5b26b054c94085a25,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5e67ce0d6bad660425074d5b,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5e73ae7881f8fd03f8d23e40,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5e820897dd6f1a90e3d31d20,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5e9f52bf6048610b8c4b0903,RETURNED,ProlificManual,FALSE,FALSE,FALSE,FALSE,No File
-5ea2fd882179510c1da22d79,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5ea3368e14912a295bc64b5c,RETURNED,ProlificManual,FALSE,FALSE,TRUE,FALSE,Crashed in Demo
-5eb302b7f5050c0cd5251a47,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5ec23edc6de0f868a9c5e4b5,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5ec3241b63dd40000cba7af3,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5eca5b22e3ca77593ee85a8f,APPROVED,ProlificManual,FALSE,TRUE,TRUE,TRUE,All good
-5ed61268acd3f60009eab832,RETURNED,ProlificManual,TRUE,FALSE,TRUE,FALSE,Phone
-5edfc7e98514502c88d96047,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5eea79b419d255017b4b3720,REJECTED,ProlificManual,TRUE,FALSE,TRUE,FALSE,Phone
-5ef4c3caca02650c73f08707,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5efa3ea7e14ff885cdd1b8b2,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5f056d0829c0c986b7d9d4f5,APPROVED,ProlificManual,FALSE,FALSE,FALSE,FALSE,No File
-5f12a88ffe732f21c29ffa68,REJECTED,ProlificManual,TRUE,FALSE,TRUE,FALSE,Phone
-5f19c6e729636c04b583b5a3,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5f1ef1f8321e4e05854c87d0,APPROVED,ProlificManual,FALSE,FALSE,TRUE,TRUE,All good
-5f1f4f4c3dd362123c382aa6,REJECTED,ProlificManual,TRUE,FALSE,TRUE,FALSE,Phone
-5f1fb88394d0f81db6f2cdea,REJECTED,ProlificManual,TRUE,FALSE,TRUE,FALSE,Phone
+"participant_id","status","Sex","age","Country.of.Birth","Condition","phone","screenSmall","file_present","full_set","checked"
+"5b2408e8a7cee100011d61a7","AWAITING REVIEW","Male",51,"Ireland","ProlificAuto","False","False","True","True","All good"
+"5b3344d76d601d0001d623ee","RETURNED","CONSENT REVOKED",27,"CONSENT REVOKED","ProlificAuto","False","False","False","False","No File"
+"5b5896dc4f5ac5000192f36a","APPROVED","Female",49,"United Kingdom","ProlificAuto","False","False","True","True","All good"
+"5b830542b0d72600018dc280","AWAITING REVIEW","Female",29,"Hungary","ProlificAuto","False","False","True","True","All good"
+"5ba8d21cd08ab20001c82ecf","AWAITING REVIEW","Male",29,"Russian Federation","ProlificAuto","False","False","True","True","All good"
+"5bf9157e8e9c9d000109f674","AWAITING REVIEW","Male",24,"Latvia","ProlificAuto","False","False","True","True","All good"
+"5c08450f5b32d500012e371b","RETURNED","CONSENT REVOKED",25,"CONSENT REVOKED","ProlificAuto","False","False","True","False","Crashed"
+"5c93106f765dad0015f840ff","AWAITING REVIEW","Male",20,"Estonia","ProlificAuto","False","False","True","True","All good"
+"5ca0e0ca3a7de90015f89e8a","ACTIVE","Female",34,"United Kingdom","ProlificAuto","False","False","True","True","All good"
+"5d089072c65537001a08d156","APPROVED","Female",31,"United Kingdom","ProlificAuto","False","False","True","True","All good"
+"5d1f5c20aaa27b001954de31","AWAITING REVIEW","Male",22,"Greece","ProlificAuto","False","False","True","True","All good"
+"5d489bb062ed9000157adb20","APPROVED","Female",28,"Croatia","ProlificAuto","False","False","True","True","All good"
+"5dc9ef9a5d81cd71153f8f70","ACTIVE","Female",20,"Romania","ProlificAuto","False","False","True","True","All good"
+"5e307812c0b28907a0a74027","APPROVED","Female",35,"Portugal","ProlificAuto","False","False","True","True","All good"
+"5e820a415b6ebc01e6cd81a8","AWAITING REVIEW","Female",29,"Italy","ProlificAuto","False","False","True","True","All good"
+"5e8346cef38186069077abef","AWAITING REVIEW","Male",29,"Italy","ProlificAuto","False","False","True","True","All good"
+"5e8b2a3044d8747e29550203","AWAITING REVIEW","Male",20,"Australia","ProlificAuto","False","False","True","True","All good"
+"5e93624940aaf46a4f0fb43b","APPROVED","Female",22,"South Africa","ProlificAuto","False","False","True","True","All good"
+"5e9ab5df2893af141343bce7","ACTIVE","Male",29,"Hungary","ProlificAuto","False","False","True","True","All good"
+"5ea954d9074a4a02c77dd184","ACTIVE","Male",23,"Portugal","ProlificAuto","False","False","True","True","All good"
+"5eab3ab6f32e3b10405dafeb","AWAITING REVIEW","Female",27,"Greece","ProlificAuto","False","False","True","True","All good"
+"5eac7cc25fe9ad2d823fab6a","ACTIVE","Male",22,"Italy","ProlificAuto","False","False","True","True","All good"
+"5ebd1b6dec7a5d01186cb811","AWAITING REVIEW","Female",19,"Poland","ProlificAuto","False","False","True","True","All good"
+"5ec79d5d4f89b82002134fe1","ACTIVE","Male",21,"Portugal","ProlificAuto","False","False","False","False","No File"
+"5ecfea23da3c3208a1ed99c8","APPROVED","Male",26,"Poland","ProlificAuto","False","False","True","True","All good"
+"5edbe5280d226089aa3b9c7e","APPROVED","Male",18,"Portugal","ProlificAuto","False","False","True","True","All good"
+"5ee7c514b0bcec08a00d6a93","AWAITING REVIEW","Male",19,"Poland","ProlificAuto","False","False","True","True","All good"
+"5efcc4c2df2a840acee97095","RETURNED","CONSENT REVOKED",19,"CONSENT REVOKED","ProlificAuto","False","False","False","False","No File"
+"5f1b456e67c7af0f63889518","ACTIVE","Male",24,"Poland","ProlificAuto","False","False","True","True","All good"
+"5f1d879edef5136a796ed7a2","APPROVED","Female",22,"United Kingdom","ProlificAuto","False","False","True","True","All good"
+"5f1db362b7b8a26ee4e9ad30","APPROVED","Male",20,"Estonia","ProlificAuto","False","False","True","True","All good"
+"5f1e933193414a0009e621f8","RETURNED","CONSENT REVOKED",31,"CONSENT REVOKED","ProlificAuto","False","False","False","False","No File"
+"5f1e9c0c2c833f42a6afc2a4","AWAITING REVIEW","Male",18,"Poland","ProlificAuto","False","False","True","True","All good"
+"5f1eaa90cf077f0008daa7bf","APPROVED","Male",19,"Poland","ProlificAuto","False","False","True","True","All good"
+"573b7b1967421f000e19125e","APPROVED","Male",36,"United Kingdom","ProlificManual","False","False","True","True","All good"
+"59f096e47f3d71000171e46b","APPROVED","Male",24,"Russian Federation","ProlificManual","False","False","True","True","All good"
+"5aa7e3c1777df200016086ae","APPROVED","Female",34,"United Kingdom","ProlificManual","False","False","True","True","All good"
+"5ab14610811b2000016fa5e8","RETURNED","CONSENT REVOKED",42,"CONSENT REVOKED","ProlificManual","False","False","False","False","No File"
+"5adc95a1066c510001d410d7","APPROVED","Male",41,"Pakistan","ProlificManual","False","False","True","True","All good"
+"5b5f15f2fc072a00017da73d","APPROVED","Female",57,"United Kingdom","ProlificManual","False","False","True","False","Crashed"
+"5bb2db13f05e410001fa0c8a","RETURNED","CONSENT REVOKED",36,"CONSENT REVOKED","ProlificManual","False","False","True","False","Crashed"
+"5be2172e8a2c800001624f31","APPROVED","Male",26,"Sweden","ProlificManual","False","False","True","True","All good"
+"5bfc4abf02c7560001ae506a","APPROVED","Male",24,"Belgium","ProlificManual","False","False","True","True","All good"
+"5c0d2a1e934de30001764967","RETURNED","CONSENT REVOKED",NA,"CONSENT REVOKED","ProlificManual","False","False","False","False","No File"
+"5c3ed18bde04ad0001d90f0c","REJECTED","Female",43,"Spain","ProlificManual","True","False","True","False","Phone"
+"5c45f3bb16760d000127fee1","RETURNED","CONSENT REVOKED",45,"CONSENT REVOKED","ProlificManual","True","False","True","False","Phone"
+"5c5cad3e4ee81200018eafe2","APPROVED","Female",NA,"United Kingdom","ProlificManual","False","False","False","False","No File"
+"5c6440b6ceb4ca00014458a4","APPROVED","Female",31,"Poland","ProlificManual","False","True","True","False","Screen too small"
+"5c707693db12e3000146b16d","APPROVED","Male",29,"United Kingdom","ProlificManual","False","False","True","True","All good"
+"5ca61b5b38d61000014d60f8","APPROVED","Male",21,"United Kingdom","ProlificManual","False","False","True","True","All good"
+"5cd05f699663d500187a3d5e","APPROVED","Female",33,"United Kingdom","ProlificManual","False","False","True","True","All good"
+"5d0114857be13b0016e991c3","APPROVED","Female",33,"United Kingdom","ProlificManual","False","False","True","True","All good"
+"5d160de2a69e290017ef507c","APPROVED","Female",25,"Netherlands","ProlificManual","False","False","True","True","All good"
+"5d2cb707d091310019c54662","APPROVED","Female",21,"United Kingdom","ProlificManual","False","False","True","True","All good"
+"5d55d55a31022a0001428f3a","APPROVED","Female",23,"Poland","ProlificManual","False","False","True","True","All good"
+"5d5d21bedbca72001d7cfd68","APPROVED","Female",19,"United Kingdom","ProlificManual","False","False","True","True","All good"
+"5d7a275ae1980f0018725396","REJECTED","Female",24,"Italy","ProlificManual","True","False","True","False","Phone"
+"5dcc4dc4dcc83f8de5d8ad68","APPROVED","Female",28,"Hungary","ProlificManual","False","False","False","False","No File"
+"5dde2bbdcaee3ed8d5b64b0f","APPROVED","Female",19,"Poland","ProlificManual","False","False","True","True","All good"
+"5de637df1abb5059e776aab2","APPROVED","Male",29,"Poland","ProlificManual","False","False","True","True","All good"
+"5df5143f58a5c738d0e197af","APPROVED","Male",20,"Poland","ProlificManual","False","False","False","False","No File"
+"5df9ff4566247b000d5d9a72","APPROVED","Female",23,"Germany","ProlificManual","False","False","True","True","All good"
+"5e330b32b5cfc82d828e9830","APPROVED","Female",22,"United Kingdom","ProlificManual","False","False","True","True","All good"
+"5e4a6ca5b26b054c94085a25","APPROVED","Female",21,"Mozambique","ProlificManual","False","False","True","True","All good"
+"5e67ce0d6bad660425074d5b","APPROVED","Female",21,"Poland","ProlificManual","False","False","True","True","All good"
+"5e73ae7881f8fd03f8d23e40","APPROVED","Male",20,"Poland","ProlificManual","False","False","True","True","All good"
+"5e820897dd6f1a90e3d31d20","APPROVED","DATA EXPIRED",27,"DATA EXPIRED","ProlificManual","False","False","True","True","All good"
+"5e8b58da0b0a0901c999f22e","APPROVED","Female",31,"Netherlands","ProlificManual","False","False","True","True","All good"
+"5e90a8363f920e3bda6b5068","APPROVED","Female",19,"Portugal","ProlificManual","False","False","True","True","All good"
+"5e9f52bf6048610b8c4b0903","RETURNED","CONSENT REVOKED",31,"CONSENT REVOKED","ProlificManual","False","False","False","False","No File"
+"5ea2fd882179510c1da22d79","APPROVED","Female",23,"Portugal","ProlificManual","False","False","True","True","All good"
+"5ea3368e14912a295bc64b5c","RETURNED","CONSENT REVOKED",23,"CONSENT REVOKED","ProlificManual","False","False","True","False","Crashed"
+"5ea7f2a576434f0008303441","RETURNED","CONSENT REVOKED",54,"CONSENT REVOKED","ProlificManual","False","False","False","False","No File"
+"5ea98f445ef6ee093f4f05ec","APPROVED","Female",28,"Spain","ProlificManual","False","False","True","True","All good"
+"5eb302b7f5050c0cd5251a47","APPROVED","Male",22,"United Kingdom","ProlificManual","False","False","True","True","All good"
+"5ebe87a5ade13804fc072f74","APPROVED","Male",26,"Poland","ProlificManual","False","False","True","True","All good"
+"5ec23edc6de0f868a9c5e4b5","APPROVED","Female",29,"Israel","ProlificManual","False","False","True","True","All good"
+"5ec3241b63dd40000cba7af3","APPROVED","Female",23,"Portugal","ProlificManual","False","False","True","True","All good"
+"5eca5b22e3ca77593ee85a8f","APPROVED","Male",25,"United States","ProlificManual","False","True","True","True","All good"
+"5ed61268acd3f60009eab832","RETURNED","CONSENT REVOKED",25,"CONSENT REVOKED","ProlificManual","True","False","True","False","Phone"
+"5edf4ec5ecf5a01f151921fd","APPROVED","Male",23,"Germany","ProlificManual","False","False","True","True","All good"
+"5edfc7e98514502c88d96047","APPROVED","Female",22,"Netherlands","ProlificManual","False","False","True","True","All good"
+"5ee00cac9573bb357f5b4e6b","APPROVED","Male",23,"Spain","ProlificManual","False","False","True","True","All good"
+"5ee013785a5719357e9ce0cf","RETURNED","CONSENT REVOKED",41,"CONSENT REVOKED","ProlificManual","False","False","True","False","Crashed"
+"5ee8d6d61404042039f3b298","APPROVED","Female",23,"United Kingdom","ProlificManual","False","False","True","True","All good"
+"5eea79b419d255017b4b3720","REJECTED","Female",19,"Italy","ProlificManual","True","False","True","False","Phone"
+"5ef4c3caca02650c73f08707","APPROVED","Male",19,"Poland","ProlificManual","False","False","True","True","All good"
+"5efa3ea7e14ff885cdd1b8b2","APPROVED","Male",19,"United States","ProlificManual","False","False","True","True","All good"
+"5f056d0829c0c986b7d9d4f5","APPROVED","Male",22,"Italy","ProlificManual","False","False","False","False","No File"
+"5f0d6b5a2845370008281abd","APPROVED","Male",30,"Pakistan","ProlificManual","False","False","True","True","All good"
+"5f12a88ffe732f21c29ffa68","REJECTED","Female",18,"Netherlands","ProlificManual","True","False","True","False","Phone"
+"5f12fe38f644de14ba0666fe","REJECTED","Male",33,"United Kingdom","ProlificManual","True","False","True","False","Phone"
+"5f19376ce1164819c004f060","APPROVED","Male",40,"United States","ProlificManual","False","True","True","True","All good"
+"5f19c6e729636c04b583b5a3","APPROVED","Male",18,"Poland","ProlificManual","False","False","True","True","All good"
+"5f1ef1f8321e4e05854c87d0","APPROVED","Female",21,"Poland","ProlificManual","False","False","True","True","All good"
+"5f1f4f4c3dd362123c382aa6","REJECTED","Female",21,"Poland","ProlificManual","True","False","True","False","Phone"
+"5f1fb88394d0f81db6f2cdea","REJECTED","Female",29,"United States","ProlificManual","True","False","True","False","Phone"

@@ -1,0 +1,2 @@
+Browser,true_x_res,true_y_res,x_adjustment,y_adjustment,Params_TravelTime,Params_yOffset,Params_Reach,Params_ScreenWidth,Params_ScreenHeight,Params_Hz,Params_HzScale,Params_conf_linewidth,ExperimentStarted,ScreenTooSmall,participant,Age,Gender,date,expName,psychopyVersion,OS,frameRate,PROLIFIC_PID,STUDY_ID,SESSION_ID
+Firefox,1366,585,1,1,120,100,45,1200,600,60,1,300,8/3/20,True,5f19376ce1164819c004f060,40,Male,2020-08-03_16h03.56.203,ProlificManual,3.2.2,Win32,60,5f19376ce1164819c004f060,5f1f20d4c389060d55cb9bc4,5f27e0d4c38a7c0354a8b4bb
