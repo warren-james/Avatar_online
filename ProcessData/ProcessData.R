@@ -170,3 +170,8 @@ df_avatar <- df_avatar %>%
   mutate(Condition = as.factor(Condition),
          Condition = factor(Condition, levels = c("Manual", "Automatic")))
 
+df_demo <- df_demo %>% 
+  select(-c(Demo_Click, Demo_motion, Demo_speedCond)) %>% 
+  mutate(Condition = as.factor(Condition),
+         Condition = factor(Condition, levels = c("Manual", "Automatic")))
+
