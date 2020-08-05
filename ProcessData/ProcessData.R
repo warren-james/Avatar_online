@@ -85,7 +85,7 @@ for(p in unique(df_demo$participant)){
   df_acc <- rbind(df_acc, temp)
   # df_accparams <- rbind(df_accparams, temp_params)
   df_accparams[count, participant := subj]
-  df_accparams[count, condition := Cond]
+  df_accparams[count, Condition := Cond]
   df_accparams[count, A := m$coefficients[1]]
   df_accparams[count, B := m$coefficients[2]]
   
@@ -120,7 +120,7 @@ rm(df_acc1, df_acc2)
 #### Replace #### 
 # check the manual condition for people who have poor accuracy 
 limit <- .85
-Manual_participants <- df_accparams %>% 
+Manual_participants <- as_tibble(df_accparams) %>% 
   filter(Condition == "Manual") %>%
   mutate(dist_100 = 100,
          dist_200 = 200,
@@ -164,4 +164,9 @@ plt_acc_check <- df_acc %>%
 # tidy 
 rm(limit)
 
+#### tidy up data frames ####
+df_avatar <- df_avatar %>% 
+  select(-c(Decision_Driving, Decision_Click)) %>% 
+  mutate(Condition = as.factor(Condition),
+         Condition = factor(Condition, levels = c("Manual", "Automatic")))
 
