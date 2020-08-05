@@ -2,6 +2,7 @@
 
 #### Library ####
 library(tidyverse)
+library(data.table)
 
 #### source ####
 # get datasets and old functions 
@@ -32,11 +33,6 @@ df_demo <- df_demo %>%
 
 
 #### Add in chance performance ####
-df_acc <- tibble(participant = character(),
-                 Condition = character(),
-                 dist = numeric(),
-                 acc = numeric())
-
 # get distances to check... 
 df_avatar <- df_avatar %>% 
   # select(participant, Decision_xposTarget, Decision_placement) %>% 
@@ -49,16 +45,27 @@ df_avatar <- df_avatar %>%
 dists <- c(unique(df_avatar$distance1), unique(df_avatar$distance2), unique(df_avatar$delta))
 dists <- unique(dists)
 
-df_accparams <- tibble(participant = character(), 
-                       condition = character(),
-                       A = numeric(),
-                       B = numeric())
+df_acc <- tibble(participant = character(),
+                 Condition = character(),
+                 dist = numeric(),
+                 acc = numeric())
+
+# df_accparams <- tibble(participant = character(), 
+#                        condition = character(),
+#                        A = numeric(),
+#                        B = numeric())
+
+n <- length(unique(df_demo$participant))
+
+df_accparams <- data.table(participant = rep("", n),
+                           Condition = rep("",n),
+                           A = rep(0, n),
+                           B = rep(0,n))
 
 # now loop and make predictions
 print("calculating chance")
 
-# count <- 1
-n <- length(unique(df_demo$participant))
+count <- 1
 pb <- progress_bar$new(total = n)
 for(p in unique(df_demo$participant)){
   ss <- df_demo[df_demo$participant == p,] %>% 
@@ -66,27 +73,28 @@ for(p in unique(df_demo$participant)){
   m <- glm(Demo_Success ~ dist,
            family = "binomial",
            data = ss)
-  participant = unique(ss$participant)
-  Condition = unique(ss$Condition)
+  subj = unique(ss$participant)
+  Cond = unique(ss$Condition)
   
-  temp_params <- tibble(participant = participant,
-                        Condition = Condition,
-                        A = m$coefficients[1],
-                        B = m$coefficients[2])
-  
-  temp <- tibble(participant = participant,
-                 Condition = Condition,
+  temp <- tibble(participant = subj,
+                 Condition = Cond,
                  dist = dists) %>% 
     rowwise() %>% 
     mutate(acc = predict(m, data.frame(dist = dist), type = "response"))
   
   df_acc <- rbind(df_acc, temp)
-  df_accparams <- rbind(df_accparams, temp_params)
+  # df_accparams <- rbind(df_accparams, temp_params)
+  df_accparams[count, participant := subj]
+  df_accparams[count, condition := Cond]
+  df_accparams[count, A := m$coefficients[1]]
+  df_accparams[count, B := m$coefficients[2]]
+  
   pb$tick()
+  count <- count + 1
 }
 
 # tidy 
-rm(m, ss, temp, temp_params, participant, Condition, dists, n, p, pb)
+rm(m, ss, temp, temp_params, participant, Cond, dists, n, p, pb, count)
 
 print("complete")
 beep()
