@@ -56,15 +56,15 @@ save(m1, file = "ModelOutput/m_noPriors")
 
 
 #### > Rand effects: 2 categorical predictors new priors ####
-m_priors <- c(set_prior("student_t(3, -1.41, 1.25)",
+m_priors <- c(set_prior("student_t(3, -1.41, 1)",
                         class = "Intercept"),
-              set_prior("student_t(3, 0, 1.25)",
+              set_prior("student_t(3, 0, 1)",
                         class = "b",
                         coef = "ConditionAutomatic"),
-              set_prior("student_t(3, 0, 1.25)",
+              set_prior("student_t(3, 0, 1)",
                         class = "b",
                         coef = "ConditionAutomatic:dist_typeFar"),
-              set_prior("student_t(3, 1.55, 1.25)",
+              set_prior("student_t(3, 1.55, 1)",
                         class = "b",
                         coef = "dist_typeFar"))
 
@@ -98,7 +98,7 @@ plt_raw <- model_data %>%
         legend.position = "bottom")
 
 plt_model <- model_data %>% 
-  add_predicted_draws(m1) %>% 
+  add_predicted_draws(m2) %>% 
   group_by(.draw, Condition, dist_type, participant) %>% 
   summarise(mu = mean(.prediction)) %>% 
   ggplot(aes(mu, 
@@ -108,15 +108,16 @@ plt_model <- model_data %>%
                bw = .05) + 
   see::scale_color_flat() + 
   see::scale_fill_flat() + 
+  scale_x_continuous("Normalised Placement",
+                     breaks = seq(0,1,.5)) +
   theme_bw() +
+  theme(legend.position = "bottom") + 
   facet_wrap(~dist_type)
 
 legend <- g_legend(plt_raw)
 x11()
 grid.arrange(arrangeGrob(plt_raw + theme(legend.position = "none"), plt_model + theme(legend.position = "none"), ncol = 2),
              legend, heights = c(10,1))
-
-
 
 
 
