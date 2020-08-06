@@ -34,6 +34,9 @@ post_remove <- nrow(model_data)
 data_loss <- 100 - ((post_remove/pre_remove)*100)
 print(paste("data lost = ", round(data_loss, digits = 2), "%", sep =""))
 
+# save
+save(model_data, file = "scratch/model_data")
+
 # tidy 
 rm(post_remove, pre_remove)
 
@@ -80,6 +83,22 @@ m2 <- brm(abs_norm_place ~ Condition * dist_type + (Condition * dist_type|partic
 beep()
 # save
 save(m2, file = "ModelOutput/m_withPriors")
+
+#### > > Run priors only version ####
+m3 <- brm(abs_norm_place ~ Condition * dist_type + (Condition * dist_type|participant),
+          prior = m_priors,
+          data = model_data,
+          family = "beta",
+          chains = 1,
+          iter = m_iter,
+          warmup = m_iter/2,
+          sample_prior = "only",
+          control = m_control)
+beep()
+
+#save 
+save(m3, file = "ModelOutput/m_priorsonly")
+
 #### Plotting ####
 # plotting the outputs of the modelling
 
