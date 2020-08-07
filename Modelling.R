@@ -42,11 +42,11 @@ rm(post_remove, pre_remove)
 
 #### Modelling #### 
 # parameters for all models 
-m_iter <- 2000
-m_control <- list(adapt_delta = .95)
+m_iter <- 6000
+m_control <- list(adapt_delta = .99)
 
 #### > Rand effects: 2 categorical predictors standard priors ####
-m1 <- brm(abs_norm_place ~ Condition * dist_type + (Condition * dist_type|participant),
+m1_nopriors <- brm(abs_norm_place ~ Condition * dist_type + (Condition * dist_type|participant),
           data = model_data,
           family = "beta",
           chains = 1,
@@ -55,7 +55,7 @@ m1 <- brm(abs_norm_place ~ Condition * dist_type + (Condition * dist_type|partic
           control = m_control)
 beep()
 # save 
-save(m1, file = "ModelOutput/m_noPriors")
+save(m1_nopriors, file = "ModelOutput/m_noPriors")
 
 
 #### > Rand effects: 2 categorical predictors new priors ####
@@ -72,7 +72,7 @@ m_priors <- c(set_prior("student_t(3, -1.41, 1)",
                         coef = "dist_typeFar"))
 
 # model 
-m2 <- brm(abs_norm_place ~ Condition * dist_type + (Condition * dist_type|participant),
+m1_withpriors <- brm(abs_norm_place ~ Condition * dist_type + (Condition * dist_type|participant),
           prior = m_priors,
           data = model_data,
           family = "beta",
@@ -82,22 +82,22 @@ m2 <- brm(abs_norm_place ~ Condition * dist_type + (Condition * dist_type|partic
           control = m_control)
 beep()
 # save
-save(m2, file = "ModelOutput/m_withPriors")
+save(m1_withpriors, file = "ModelOutput/m_withPriors")
 
 #### > > Run priors only version ####
-m3 <- brm(abs_norm_place ~ Condition * dist_type + (Condition * dist_type|participant),
+m1_priors_only <- brm(abs_norm_place ~ Condition * dist_type + (Condition * dist_type|participant),
           prior = m_priors,
-          data = model_data,
+          data = model_data, 
           family = "beta",
           chains = 1,
           iter = m_iter,
-          warmup = m_iter/2,
+          warmup = m_iter*.5,
           sample_prior = "only",
           control = m_control)
 beep()
 
 #save 
-save(m3, file = "ModelOutput/m_priorsonly")
+save(m1_priors_only, file = "ModelOutput/m_priorsonly")
 
 #### Plotting ####
 # plotting the outputs of the modelling
